@@ -63,7 +63,7 @@ export default function App() {
       }
 
       parts.push({
-        text: 'Combine these subjects and place them on the Sepang International Circuit race track. The background should show the iconic grandstand or the track curves of Sepang. Maintain the subjects exactly as they are, but integrate them realistically into the racing environment with proper lighting, shadows, and perspective. They should look like they are part of the same scene at the track.',
+        text: 'Combine these subjects and place them on the Sepang International Circuit race track. CRITICAL: Do not change the appearance, color, model, or any details of the motorcycles/subjects in the uploaded images. They must be preserved exactly as they appear. The background should show the iconic grandstand or the track curves of Sepang. Integrate them realistically into the racing environment using only lighting, shadows, and perspective adjustments. They should look like they are part of the same scene at the track without any modifications to the subjects themselves.',
       });
 
       const response = await ai.models.generateContent({
